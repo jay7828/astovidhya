@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<script>
+    var x=1;
+    
+    function show()
+    {
+        document.getElementById("cross").style.display="flex";
+        document.getElementById("menu").style.display="none";
+        document.getElementById("menu-opt").style.display = 'flex';
+
+    }
+    function hide()
+    {
+        document.getElementById("cross").style.display="none";
+        document.getElementById("menu").style.display="flex"; 
+        document.getElementById("menu-opt").style.display = 'none';
+  
+    }
+</script>
+<body>
+    <div class="product-page">
+    <!-- Navigition -->
+    <div class="nav">
+    <nav>
+        <img src="./assest/astrovidhi-logo.png" alt="">
+        <ul class="nav-option">
+            <li><a href="index.html">होम</a></li>
+            <li><a href="#">ज्योतिषीय रिपोर्ट्स</a></li> 
+            <li><a href="#">ज्‍योतिषीय उपाय</a></li>
+            <li><a href="#">रुद्राक्ष</a></li>
+            <li><a href="#"> रत्‍न</a></li>
+            <li><a href="#">राशि भाग्य रत्न</a></li>
+            <li><a href="#">राशि उपरत्न</a></li>
+            <li><a href="#">राशि रत्न</a></li>
+            <li><a href="#">फ्री ज्‍योतिष टूल्‍स</a></li>
+            <li><a href="#">ऑनलाइन पूजा</a></li>
+            <li><a href="#">ब्रेसलेट</a></li>
+            <li><a href="#">माला</a></li>
+            <li><a href="#">ब्‍लॉग</a></li>
+        </ul>
+        <div class="lba">
+        <div class="callback">
+            <i class=" fa-solid fa-phone-volume"></i>
+            <span>Request <br> CallBack</span>
+        </div>
+        <div class="hamburger"    >
+        <i class="fa-solid fa-bars " id="menu" onclick="show()"></i>
+            <i class="fa-solid fa-duotone fa-xmark " id="cross" onclick="hide()"></i>
+        </div>
+        </div>
+    </nav>
+    <div class="nav-opt" id="menu-opt">
+        <ul>
+            <li><a href="index.html">होम</a></li>
+            <li><a href="#">ज्योतिषीय रिपोर्ट्स</a></li> 
+            <li><a href="#">ज्‍योतिषीय उपाय</a></li>
+            <li><a href="#">रुद्राक्ष</a></li>
+            <li><a href="#"> रत्‍न</a></li>
+            <li><a href="#">राशि भाग्य रत्न</a></li>
+            <li><a href="#">राशि उपरत्न</a></li>
+            <li><a href="#">राशि रत्न</a></li>
+            <li><a href="#">फ्री ज्‍योतिष टूल्‍स</a></li>
+            <li><a href="#">ऑनलाइन पूजा</a></li>
+            <li><a href="#">ब्रेसलेट</a></li>
+            <li><a href="#">माला</a></li>
+            <li><a href="#">ब्‍लॉग</a></li>
+        
+        </ul>
+
+    </div>
+    </div>
+
+    <!-- Home -->
+    <div class="home">
+        <!-- Product -->
+        <div class="product">
+            <span>HomeVidhi <i class="fa-solid fa-chevron-right"></i>&nbsp; Store <i class="fa-solid fa-chevron-right"></i> Education Emerald <i class="fa-solid fa-chevron-right"></i> ring</span>
+            <div class="product-detail">
+            <!-- side images -->
+            <div class="carousel">
+                <img src="./assest/kanya-rashi1.jpg" alt="">
+            </div>
+
+              <!-- Right Content -->
+              <div class="rcontent">
+                <span class="product-title">पन्‍ना रत्‍न की अंगूठी</span>
+                <p class="product-detail1">पन्ना रत्न को कई नामों से जाना जाता है, जैसे संस्कृत में मरकत मणि, फ़ारसी में जरमन, हिंदी में पन्ना और अंग्रेजी में एमराल्ड। पन्‍ना बुध का रत्‍न है और बुध कन्‍या राशि का स्‍वामी है। कन्‍या राशि के जातकों को पन्‍ना रत्‍न पहनने से बहुत लाभ मिलता है।</p>
+                <div class="order-button">
+                    <span>₹ 3050/-</span>
+                    <button>अभी आर्डर करे</button>
+                    
+                </div>
+                
+                <Table   class="table1">
+                        <tr>
+                            <th>डिलीवरी:</th>
+                            <td><i class="fa-solid fa-truck"></i> 5-8 दिनों में डिलीवरी</td>
+                        </tr>
+                        <tr>
+                            <th>मुफ़्त शिपिंग:</th>
+                            <td><img src="./assest/indian flag.webp" alt="" style="width:15px"> India</td>
+                        </tr>
+                        <tr>
+                            <th>फ़ोन पर ख़रीदें:</th>
+                            <td><i class=" fa-solid fa-phone-volume"></i><a href="tel:+91 8882 540 540"> +91 8882 540 540</a></td>
+                        </tr>
+                        <tr>
+                            <th>अभिमंत्रित:</th>
+                            <td><img src="./assest/free.jpg" alt="" style="width: 25px;"> फ्री अभिमन्त्रण आचार्य रमन जी द्वारा</td>
+                        </tr>
+                </Table>
+                 <span class="table-head">विवरण</span> 
+                 <Table class="table2">
+                    <tr>
+                        <th>रत्‍न:	</th>
+                        <td>5.25 रत्‍ती</td>   	
+                    </tr>
+                    <tr>
+                        <th> सर्टिफिकेट:</th>
+                        <td>Govt. द्वारा प्रमाणित लैब सर्टिफिकेट</td>
+                    </tr>
+                    <tr>
+                        <th>धातु:</th>
+                        <td>पंचधातु</td>
+                    </tr>
+                    <tr>
+                        <th>वजन:</th>
+                        <td>3.5 से 5 ग्राम</td>
+                    </tr>
+                    <tr>
+                        <th>माप:</th>
+                        <td>फ्री साइज (Adjustable)</td>
+                    </tr>
+                </Table>
+                <span class="specs">
+                    कन्‍या राशि के लोगों के जीवन के कष्‍टों को पन्‍ना रत्‍न से दूर किया जा सकता है। यह रत्‍न विद्वता, वाद-विवाद करने की क्षमता देता है।
+                </span>
+                <div class="product-detail2">
+                    <span>पन्‍ना रत्‍न के लाभ</span>
+                    <ul>
+                        <li>पढ़ाई में कमज़ोर बच्‍चों और छात्रों को पन्‍ना रत्‍न धारण करने से लाभ होता है। इससे उनकी एकाग्रता बढ़ती है।</li>
+                        <li>यह रत्न बलवर्धक, आरोग्यदायक तथा सुख देनेवाला होता है। </li>
+                        <li>गणित और कॉमर्स से संबंधित शिक्षा प्रदान करने वाले अध्यापकों के लिए पन्ना रत्न धारण करने से लाभ होता है।</li>
+                        <li>ये रत्‍न आपको उत्तम स्‍वास्‍थ्‍य प्रदान करता है।</li>
+                        <li>कहते हैं जिस घर में पन्ना होता है वहां अन्न-धन की कभी कमी नहीं होती। इसके प्रभाव से आंखों की रोशनी तेज होती है।</li>
+                        <li>यह रत्न व्यापार में धन लाभ प्राप्त करने के लिए सबसे उत्तम माना गया है। </li>
+                    
+                    </ul>
+                    <span>कौन करे धारण </span>
+                    <p>कन्‍या राशि के जातक इस अभिमंत्रित पन्‍ना की अंगूठी को धारण कर सकते हैं।</p>
+                    <span>कौन होते हैं कन्‍या राशि के जातक </span>
+                    <p>यदि आपका जन्‍म 21 अगस्‍त से 20 सितंबर के मध्‍य हुआ है या आपका नाम टो, पा, पी, पू , ष, ण, ठ, पे, पो में से किसी एक अक्षर से शुरू होता हो तो आपकी राशि कन्‍या है।</p>
+                    <span>हमसे क्‍यों लें </span>
+                    <p>इस अंगूठी को आचार्य रमन ने बुध के मंत्रों द्वारा अभिमंत्रित किया है जिससे यह आपको जल्‍द ही शुभ फल दे। इस अंगूठी के साथ सर्टिफिकेट भी दिया जाएगा जो इस रत्‍न के ओरिजनल होने का प्रमाण है।</p>
+                    <p>इस अंगूठी से संबंधित किसी अन्‍य जानकारी के लिए <a href="tel:8285282851">8285282851</a>  पर संपर्क करें और अपने लिए इस अंगूठी को मंगवाने में देर न करें। </p>
+                </div>
+                <div class="order-button">
+                    <span>₹ 3050/-</span>
+                    <button>अभी आर्डर करे</button>
+                    
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+        <!-- Review -->
+        <div class="review">
+            <span>
+                Reviews
+            </span>
+            <div class="total-rating">
+            <div class="rating">
+                <span>
+                    <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                    <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                    <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                    <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                    <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                </span>
+                <p>Based on 2 reviews</p>
+
+            </div>
+            <div class="user-review">
+                <div class="rf1">
+                    <div class="lf1">
+                        <span>Bahut hi badiya Panna</span>
+                        <span>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                        </span>
+                        <p id="user-name"><i> Sandeep </i></p>
+                    </div>
+                    <span >
+                        Bahut hi badiya Panna he Guruji
+                    </span>
+                </div>
+                <div class="rf1">
+                    <div class="lf1">
+                        <span>कन्या राशि के लिए पन्ना</span>
+                        <span>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                            <i class="fa-solid fa-star" style="color: #d4ce11;"></i>
+                        </span>
+                        <p id="user-name"><i> पारुल जाँगिड </i></p>
+                    </div>
+                    <span>
+                        पंडितजी द्वारा बताए जाने पर मैंने पन्ना पहन्ने की ठानी और astrovidhi से इस अभिमंत्रित अँगूठी का ऑर्डर दिया। COD में लेने के बादसे ही मैंने इसे विधि अनुसार पहना है और मेरे career में इसका सही प्रभाव होने भी लगा है। राशि अनुसार रत्न ही पहन्ने चाइए।
+                    </span>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+        <!-- Footer -->
+        <div class="footer">
+                   
+            <div class="foot-links">
+                <a href="#">Payment</a>
+                <a href="#">About</a>
+                <a href="#">usContact</a>
+                <a href="#">usPrivacy</a>
+                <a href="#">PolicyCancellation</a>
+                <a href="#">PolicyCareersCustomer</a>
+                <a href="#">ServiceDisclaimer</a>
+                <a href="#">  Terms & Conditions</a>
+                <a href="#"> Refund </a>
+                <a href="#">PolicyReplacement</a>
+                <a href="#">PolicySitemap</a>
+            </div>
+            <div class="copyright">
+                <span>© 2015 - 2023 Mantra Solventure. All Rights Reserved.</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/3f938da7aa.js" crossorigin="anonymous"></script>
+</html>
