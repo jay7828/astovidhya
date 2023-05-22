@@ -73,7 +73,7 @@ nav ul
 }
 .hamburger  
 {
-    background-color: var(--color);
+    /* background-color: var(--color); */
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 25px;
@@ -82,23 +82,25 @@ nav ul
 #cross
 {
     display: none;
-    transition: all;
-    -webkit-transition: .5s all ease-in-out;
+    /* transition: all;
+    -webkit-transition: .5s all ease-in-out; */
 }
 
-.hamburger:hover
+/* .hamburger:hover
 {
     background-color: var(--color2);
     transition : all;
     -webkit-transition: .2s ease-in ;
-}
+} */
+
 /* option for downside  */
 .nav-opt
 {
     width: 100%;
     height: fit-content;
+    justify-content: center;
     background-color: var(--color);
-    text-align: center; 
+    text-align: center;
     display: none;
 }
 .nav-opt ul
@@ -304,7 +306,8 @@ tr
     flex-direction: column;
     background-color: #ECEFF1;
     gap: 1em;
-    padding:0px 75px ;
+    margin-top: 10px;
+    padding:20px 75px ;
 }
 .review span
 {
@@ -397,7 +400,7 @@ tr
     gap: 1em;
     flex-wrap: wrap;
     background-color: var(--color);
-    padding: 15px 0;
+    padding: 25px 0;
 }
 .copyright
 {

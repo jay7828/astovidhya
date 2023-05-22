@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<script>
+    function checkbox()
+    {
+        document.getElementById("check1").style.display="flex";
+        document.getElementById("check2").style.display="none";
+        
+
+    }
+    function checkbox1()
+    {
+        document.getElementById("check1").style.display="none";
+        document.getElementById("check2").style.display="flex";
+        
+
+    }
+</script>
+<body>
+<div class="checkout">
+    <h1>Checkout Page</h1>
+    <div class="form" >
+        <h1>Personal Deatils</h1>
+    <form action="" class="p-details" id="b-details">
+        <div class="details2">
+            <span>
+                <h3>   Name     </h3>
+                <input type="text" name="" placeholder="Name">
+            </span>
+            <span>
+                <h3>Email    </h3>
+                <input type="email" name="" placeholder="Email">
+            </span>
+            <span>
+                <h3>Mobile</h3>
+                <input type="tel" name="" placeholder="Enter 10 Digits Mobile No.">
+            </span>
+        </div>
+        <div class="msg">
+            <h3>Message</h3>
+            <input type="text" placeholder="Please Enter Your Comments Here!...">
+        </div>
+    </form>
+    <h2>Billing Address</h2>
+    <form action="" id="b-details">
+        <div class="details2">
+        <span><h3>Pincode</h3><input type="text" placeholder="Pincode"></span>
+        <span><h3>City</h3><input type="text" placeholder="City"></span>
+        <span>
+            <h3>State</h3>
+            <input list="browsers" placeholder="State">
+        </span>
+        <span>
+            <h3>Country</h3>
+            <input list="browsers" placeholder="Country">
+            <datalist>
+                <option value="First">first</option>
+            </datalist>
+        </span>
+        </div>
+        <div  class="msg" >
+            <h3>Address</h3>
+            <input type="text" placeholder="Address"  >
+        </div>
+    </form>
+    <div class="cod payment"> 
+        <div class=" p-checkbox" onclick="checkbox()"><i class="fa-solid fa-check " id="check1"></i></div>
+        <h3>Cash On delivery</h3>
+    </div>
+    <div class=" payment">
+        <div class=" p-checkbox" onclick="checkbox1()"><i class="fa-solid fa-check " id="check2"></i></div>
+        <h3 class="cards">Pay via Credit Card/Debit Card/Net Banking/Paytm Wallet</h3>
+        <h3 class="extra">Pay via cards or Online</h3>
+    </div>
+    <div for="terms-conditions" class="tc">
+        <input type="checkbox" id="terms-conditions" checked="" data-parsley-required="true" data-parsley-multiple="terms-conditions">
+        <span class="terms"> By Clicking, I accept the<a target="_blank" href="https://www.astrovidhi.com/privacy-policy/">Terms &amp; Conditions of Astrovidhi</a> And I allow astrovidhi to call me for further consultation.</span>
+    </div>
+    <br>
+    <button class="order-button">
+        Order Now
+    </button>
+</div>
+</div>
+</body>
+<script src="https://kit.fontawesome.com/3f938da7aa.js" crossorigin="anonymous"></script>
+</html>
