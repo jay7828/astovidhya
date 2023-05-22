@@ -16,9 +16,9 @@
 {
     border: 2px solid black;
     width: 95%;
-    box-shadow: 0px 0px 5px 3px rgba(88,80,80,0.55);
-    -webkit-box-shadow: 0px 0px 5px 3px rgba(88,80,80,0.55);
-    -moz-box-shadow: 0px 0px 5px 3px rgba(88,80,80,0.55);
+    box-shadow: 0px 0px 5px 3px rgba(198, 188, 188, 0.55);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(139, 138, 138, 0.55);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(121, 113, 113, 0.55);
     border-radius: 20px;
     
 }
@@ -36,15 +36,17 @@
     padding: 20px;
 
 }
+
 /* MEssages ang Address Details */
 .msg 
 {
-    width: 100%;
+
     display: flex;
-    padding: 10px 0;
+    padding:10px 20px;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-evenly
 }
+
 .msg input
 {
     width: 70%;
@@ -53,12 +55,7 @@
   
 }
 /*  Deatils*/
-#b-details
-{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
+
 .details2
 {
     display: flex;
@@ -82,7 +79,7 @@
     justify-content: space-between;
     padding: 0 20px;
 }
-#b-details input:hover
+.b-details input:hover
 {
     border: none;
     box-shadow: 0px 0px 5px 3px rgba(88,80,80,0.55);
@@ -90,7 +87,7 @@
     -moz-box-shadow: 0px 0px 5px 3px rgba(88,80,80,0.55);
 }
 
-#b-details input:focus
+.b-details input:focus
 {
     border: none;
     outline: none;
@@ -105,7 +102,6 @@
     {
        width: 70%;
     }
-    #b-details span
     {
         width: 100%;
     }
