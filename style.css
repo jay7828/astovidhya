@@ -51,7 +51,7 @@ nav ul
     align-items: center;
     border: solid 1px var(--color2);
     font-size: 15px;
-    padding : 5px 10px;
+    padding : 10px 10px;
 }
 .callback span
 {
@@ -246,14 +246,16 @@ nav ul
 .order-button button
 {
     background: var(--color);
-    color: #FFFF;
-    font-size: 22px;
-    font-weight: 700;
     padding: 5px 50px;
     border-radius: 5px;
     border: none;
 }
-
+.order-button button a
+{
+    color: #FFFF;
+    font-size: 22px;
+    font-weight: 700;
+}
 .order-button button:hover
 {
     background-color: var(--color2);
@@ -266,6 +268,9 @@ nav ul
 {
     color: var(--color);
 }
+
+
+
 table,.table1 th, .table1 td,.table2 th, .table2 td
 {
     border: 1px solid black;
