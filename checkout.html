@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout Page</title>
     <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <script>
     function checkbox()
@@ -24,6 +26,58 @@
     }
 </script>
 <body>
+    <!-- Navigation -->
+    <div class="product-page">
+        <!-- Navigition -->
+        <div class="nav">
+        <nav>
+            <img src="./assest/astrovidhi-logo.png" alt="">
+            <ul class="nav-option">
+                <li><a href="index.html">होम</a></li>
+                <li><a href="#">ज्योतिषीय रिपोर्ट्स</a></li> 
+                <li><a href="#">ज्‍योतिषीय उपाय</a></li>
+                <li><a href="#">रुद्राक्ष</a></li>
+                <li><a href="product.html"> रत्‍न</a></li>
+                <li><a href="#">राशि भाग्य रत्न</a></li>
+                <li><a href="#">राशि उपरत्न</a></li>
+                <li><a href="#">राशि रत्न</a></li>
+                <li><a href="#">फ्री ज्‍योतिष टूल्‍स</a></li>
+                <li><a href="#">ऑनलाइन पूजा</a></li>
+                <li><a href="#">ब्रेसलेट</a></li>
+                <li><a href="#">माला</a></li>
+            </ul>
+            <div class="lba">
+            <div class="callback">
+                <i class=" fa-solid fa-phone-volume"></i>
+                <span>Request CallBack</span>
+            </div>
+            <div class="hamburger"    >
+            <i class="fa-solid fa-bars " id="menu" onclick="show()"></i>
+                <i class="fa-solid fa-duotone fa-xmark " id="cross" onclick="hide()"></i>
+            </div>
+            </div>
+        </nav>
+        <div class="nav-opt" id="menu-opt">
+            <ul>
+                <li><a href="index.html">होम</a></li>
+                <li><a href="#">ज्योतिषीय रिपोर्ट्स</a></li> 
+                <li><a href="#">ज्‍योतिषीय उपाय</a></li>
+                <li><a href="#">रुद्राक्ष</a></li>
+                <li><a href="#"> रत्‍न</a></li>
+                <li><a href="#">राशि भाग्य रत्न</a></li>
+                <li><a href="#">राशि उपरत्न</a></li>
+                <li><a href="product.html">राशि रत्न</a></li>
+                <li><a href="#">फ्री ज्‍योतिष टूल्‍स</a></li>
+                <li><a href="#">ऑनलाइन पूजा</a></li>
+                <li><a href="#">ब्रेसलेट</a></li>
+                <li><a href="#">माला</a></li>
+                <li><a href="#">ब्‍लॉग</a></li>
+            
+            </ul>
+    
+        </div>
+        </div>
+    <!-- Checkout -->
 <div class="checkout">
     <h1>Checkout Page</h1>
     <div class="form" >
@@ -42,10 +96,6 @@
                 <h3>Mobile</h3>
                 <input type="tel" name="" placeholder="Enter 10 Digits Mobile No.">
             </span>
-        </div>
-        <div class="msg">
-            <h3>Message</h3>
-            <input type="text" placeholder="Please Enter Your Comments Here!...">
         </div>
     </div>
     <h2>Billing Address</h2>
@@ -67,7 +117,7 @@
         </div>
         <div  class="msg" >
             <h3>Address</h3>
-            <input type="text" placeholder="Address"  >
+            <input type="address" name="" placeholder="Address">        
         </div>
     </div>
     <div class="cod payment"> 
@@ -84,11 +134,36 @@
         <span class="terms"> By Clicking, I accept the<a target="_blank" href="https://www.astrovidhi.com/privacy-policy/">Terms &amp; Conditions of Astrovidhi</a> And I allow astrovidhi to call me for further consultation.</span>
     </div>
     <br>
-    <button class="order-button">
+    <button class="o-button">
         Order Now
     </button>
 </div>
 </div>
+<!-- Footer -->
+<div class="footer">
+                   
+    <div class="foot-links">
+        <a href="#">Payment</a>
+        <a href="#">About</a>
+        <a href="#">usContact</a>
+        <a href="#">usPrivacy</a>
+        <a href="#">PolicyCancellation</a>
+        <a href="#">PolicyCareersCustomer</a>
+        <a href="#">ServiceDisclaimer</a>
+        <a href="#"> Terms & Conditions</a>
+        <a href="#"> Refund </a>
+        <a href="#">PolicyReplacement</a>
+        <a href="#">PolicySitemap</a>
+    </div>
+    <div class="copyright">
+        <span>© 2015 - 2023 Mantra Solventure. All Rights Reserved.</span>
+    </div>
+
+</div>
+
+</div>
+<!-- script of hamburger Home Page -->
+<script src="script.js"></script>
 </body>
 <script src="https://kit.fontawesome.com/3f938da7aa.js" crossorigin="anonymous"></script>
 </html>

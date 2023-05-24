@@ -14,8 +14,9 @@
 
 .form
 {
+    margin-bottom: 5px;
     border: 2px solid black;
-    width: 100%;
+    width: 70%;
     box-shadow: 0px 0px 5px 3px rgba(198, 188, 188, 0.55);
     -webkit-box-shadow: 0px 0px 5px 3px rgba(139, 138, 138, 0.55);
     -moz-box-shadow: 0px 0px 5px 3px rgba(121, 113, 113, 0.55);
@@ -33,7 +34,7 @@
 .form h2
 {
     font-size:30px ;
-    padding: 20px;
+    padding: 0 20px;
 
 }
 
@@ -42,20 +43,29 @@
 {
 
     display: flex;
-    padding:10px 20px;
     align-items: center;
-    justify-content:space-evenly
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 9.5%;
 }
 
 .msg input
 {
-    width: 70%;
-    padding: 50px 30px;
-    border-radius: 10px;
-  
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-left: -2%;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid black;
+
 }
 /*  Deatils*/
-
+.b-details
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .details2
 {
     display: flex;
@@ -65,11 +75,11 @@
 }
 .details2 input
 {
-    padding: 10px 0;
-    border-radius: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
     width: 60%;
-    text-align:center;
     font-size: 16px;
+    border: 2px solid black;
 }
 .details2 span 
 {
@@ -98,16 +108,14 @@
 
 
 @media only screen and (max-width : 700px) {
-    .details2 input 
+    .details2 input , .msg input
     {
        width: 70%;
+       gap: 0;
     }
     .b-details span
     {
         width: 100%;
-    }
-    .msg{
-        flex-direction: column;
     }
     .form
     {
@@ -133,7 +141,7 @@
 {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 0 20px;
     gap: 2em;
 }
 .p-check{
@@ -168,7 +176,8 @@
 }
 .tc
 {
-    padding: 20px;
+    padding-top: 8px;
+    padding:10px 20px;
     display: flex;
     align-items: center;
     gap: 1em;
@@ -176,9 +185,9 @@
 .tc a{
     text-decoration: none;
 }
-.order-button
+.o-button
 {
-    padding: 15px;
+    padding: 10px 20px;
     border-radius: 10px;
     margin: 20px;
     color: #FFFF;
@@ -186,14 +195,14 @@
     border: none;
     background-color: var(--color);
 }
-.order-button:hover
+.o-button:hover
 {
     background-color: var(--color2);
     color: #FFFF;
     transition: all;
     -webkit-transition : .35s all ease-in-out;
 }
-.order-button:active
+.o-button:active
 {
     color: var(--color);
 }
