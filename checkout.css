@@ -175,7 +175,7 @@
 }
 @media only screen and (max-width:600px) {
     .extra{
-        display: contents;
+        display: flex;
     }
     .cards
     {
